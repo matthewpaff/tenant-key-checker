@@ -1,0 +1,18 @@
+{
+  "employees": [
+    {
+      "tenant": "a0",
+      "id": 1
+    },
+    {
+      "tenant": "b0",
+      "id": 1
+    }
+  ],
+  "references": [
+    {
+      "tenant": "a0",
+      "employee_id": 1
+    }
+  ]
+}
