@@ -1,0 +1,237 @@
+{
+  "synthetic": true,
+  "actualDevelopmentYear": 2026,
+  "modeledLearningYear": 2018,
+  "roadmapFit": "Independent concept exercise for modeled blueprint section B01.",
+  "scenarioCommitCount": 34,
+  "scenarioCommits": [
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 0,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-07-17T16:16:29+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 1,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-07-25T17:16:44+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 2,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-08-02T12:44:21+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 3,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-08-07T15:21:57+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 4,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-08-22T15:27:27+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 5,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-08-27T12:08:58+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 6,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-08-29T18:22:25+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 7,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-08-30T18:41:04+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 8,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-09-10T17:37:04+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 9,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-09-11T16:09:33+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 10,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-09-15T20:55:58+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 11,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-09-17T10:15:41+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 12,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-09-17T21:57:55+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 13,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-09-18T21:00:01+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 14,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-09-19T19:54:26+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 15,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-10-11T15:54:11+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 16,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-10-17T16:10:02+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 17,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-10-24T15:40:09+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 18,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-10-31T10:26:07+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 19,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-11-05T13:29:34+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 20,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-11-09T15:54:15+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 21,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-11-17T13:02:49+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 22,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-11-17T18:13:35+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 23,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-11-28T14:49:48+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 24,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-11-29T14:51:57+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 25,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-12-01T09:49:56+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 26,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-12-04T09:07:09+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 27,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-12-04T10:41:16+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 28,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-12-05T21:37:01+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 29,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-12-19T21:04:12+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 30,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-12-21T11:43:58+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 31,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-12-27T09:00:17+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 32,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-12-27T14:06:58+00:00"
+    },
+    {
+      "repository": "tenant-key-checker",
+      "fixtureIndex": 33,
+      "year": 2018,
+      "scenarioAuthorDate": "2018-12-29T12:49:54+00:00"
+    }
+  ],
+  "committerTimeline": {
+    "synthetic": true,
+    "modeledYear": 2018,
+    "actualCalendarRevisionAt": "2026-11-05T14:02:23.868107+00:00"
+  },
+  "calendarPolicy": {
+    "basis": "U.S. federal legal and observed holidays, 2018\u20132020; modeled timestamps use UTC calendar dates",
+    "source": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+    "excludedHolidayDates": [
+      "2018-01-01",
+      "2018-01-15",
+      "2018-02-19",
+      "2018-05-28",
+      "2018-07-04",
+      "2018-09-03",
+      "2018-10-08",
+      "2018-11-11",
+      "2018-11-12",
+      "2018-11-22",
+      "2018-12-25"
+    ],
+    "weekendDatesEmptyPerYear": 62,
+    "weekendDatesPerYear": 104
+  }
+}
