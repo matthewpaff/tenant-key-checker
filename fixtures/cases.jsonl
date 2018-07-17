@@ -1,0 +1,1 @@
+{"description": "allow the same employee ID under different tenant keys", "expected": {"missing": [], "valid": true}, "id": "keys-0000", "input": {"employees": [{"id": 1, "tenant": "a0"}, {"id": 1, "tenant": "b0"}], "references": [{"employee_id": 1, "tenant": "a0"}]}}
