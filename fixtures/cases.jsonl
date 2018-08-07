@@ -1,3 +1,4 @@
 {"description": "allow the same employee ID under different tenant keys", "expected": {"missing": [], "valid": true}, "id": "keys-0000", "input": {"employees": [{"id": 1, "tenant": "a0"}, {"id": 1, "tenant": "b0"}], "references": [{"employee_id": 1, "tenant": "a0"}]}}
 {"description": "report a reference absent from the selected tenant", "expected": {"missing": [{"employee_id": 1, "tenant": "b1"}], "valid": false}, "id": "keys-0001", "input": {"employees": [{"id": 1, "tenant": "a1"}], "references": [{"employee_id": 1, "tenant": "b1"}]}}
 {"description": "accept empty key and reference sets", "expected": {"missing": [], "valid": true}, "id": "keys-0002", "input": {"employees": [], "references": []}}
+{"description": "reject duplicate composite employee keys", "expected_error": true, "id": "keys-0003", "input": {"employees": [{"id": 1, "tenant": "a3"}, {"id": 1, "tenant": "a3"}], "references": []}}
