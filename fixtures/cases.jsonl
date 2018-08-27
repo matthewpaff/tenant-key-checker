@@ -3,3 +3,4 @@
 {"description": "accept empty key and reference sets", "expected": {"missing": [], "valid": true}, "id": "keys-0002", "input": {"employees": [], "references": []}}
 {"description": "reject duplicate composite employee keys", "expected_error": true, "id": "keys-0003", "input": {"employees": [{"id": 1, "tenant": "a3"}, {"id": 1, "tenant": "a3"}], "references": []}}
 {"description": "reject boolean employee IDs", "expected_error": true, "id": "keys-0004", "input": {"employees": [{"id": true, "tenant": "a4"}], "references": []}}
+{"description": "allow the same employee ID under different tenant keys", "expected": {"missing": [], "valid": true}, "id": "keys-0005", "input": {"employees": [{"id": 1, "tenant": "a5"}, {"id": 1, "tenant": "b5"}], "references": [{"employee_id": 1, "tenant": "a5"}]}}
