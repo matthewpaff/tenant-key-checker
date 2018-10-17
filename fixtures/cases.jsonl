@@ -14,3 +14,4 @@
 {"description": "reject duplicate composite employee keys", "expected_error": true, "id": "keys-0013", "input": {"employees": [{"id": 1, "tenant": "a13"}, {"id": 1, "tenant": "a13"}], "references": []}}
 {"description": "reject boolean employee IDs", "expected_error": true, "id": "keys-0014", "input": {"employees": [{"id": true, "tenant": "a14"}], "references": []}}
 {"description": "allow the same employee ID under different tenant keys", "expected": {"missing": [], "valid": true}, "id": "keys-0015", "input": {"employees": [{"id": 1, "tenant": "a15"}, {"id": 1, "tenant": "b15"}], "references": [{"employee_id": 1, "tenant": "a15"}]}}
+{"description": "report a reference absent from the selected tenant", "expected": {"missing": [{"employee_id": 1, "tenant": "b16"}], "valid": false}, "id": "keys-0016", "input": {"employees": [{"id": 1, "tenant": "a16"}], "references": [{"employee_id": 1, "tenant": "b16"}]}}
