@@ -20,3 +20,4 @@
 {"description": "reject boolean employee IDs", "expected_error": true, "id": "keys-0019", "input": {"employees": [{"id": true, "tenant": "a19"}], "references": []}}
 {"description": "allow the same employee ID under different tenant keys", "expected": {"missing": [], "valid": true}, "id": "keys-0020", "input": {"employees": [{"id": 1, "tenant": "a20"}, {"id": 1, "tenant": "b20"}], "references": [{"employee_id": 1, "tenant": "a20"}]}}
 {"description": "report a reference absent from the selected tenant", "expected": {"missing": [{"employee_id": 1, "tenant": "b21"}], "valid": false}, "id": "keys-0021", "input": {"employees": [{"id": 1, "tenant": "a21"}], "references": [{"employee_id": 1, "tenant": "b21"}]}}
+{"description": "accept empty key and reference sets", "expected": {"missing": [], "valid": true}, "id": "keys-0022", "input": {"employees": [], "references": []}}
