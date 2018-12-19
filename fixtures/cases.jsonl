@@ -27,3 +27,4 @@
 {"description": "report a reference absent from the selected tenant", "expected": {"missing": [{"employee_id": 1, "tenant": "b26"}], "valid": false}, "id": "keys-0026", "input": {"employees": [{"id": 1, "tenant": "a26"}], "references": [{"employee_id": 1, "tenant": "b26"}]}}
 {"description": "accept empty key and reference sets", "expected": {"missing": [], "valid": true}, "id": "keys-0027", "input": {"employees": [], "references": []}}
 {"description": "reject duplicate composite employee keys", "expected_error": true, "id": "keys-0028", "input": {"employees": [{"id": 1, "tenant": "a28"}, {"id": 1, "tenant": "a28"}], "references": []}}
+{"description": "reject boolean employee IDs", "expected_error": true, "id": "keys-0029", "input": {"employees": [{"id": true, "tenant": "a29"}], "references": []}}
